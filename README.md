@@ -22,7 +22,7 @@ Everything it changes can be undone: a one-time snapshot of your system is taken
 
 - **Trixie only.** This script assumes Raspberry Pi OS Trixie's default desktop stack (`labwc`, `wf-panel-pi`, LightDM + AccountsService session handling). Running it on Bookworm or any earlier release **will damage your desktop** — the config file layout and session handling it depends on don't match.
 - **Run as your normal user, not root.** The script calls `sudo` itself for the specific steps that need it (package installs, session files) and will refuse to run under `sudo ./wayfire-pi.sh`.
-- **Reboots are sometimes required.** Switching login sessions doesn't take effect until your next login/reboot — the script tells you when and offers to do it for you.
+- **Reboots are required.** Switching login sessions doesn't take effect until your next login/reboot — the script tells you when and offers to do it for you.
 
 ## Screenshots
 
@@ -74,7 +74,7 @@ Strips Wayfire out of the picture entirely — no compositor effects layer at al
 - swaync (system notifications UI)
 - Translucent title bars only — window *content* stays fully opaque
 - No blur, no rounded corners, no glass
-- Wayfire itself is left installed (just not the active session) so switching up to Average/Ludicrous later is instant
+- If installed, Wayfire itself is left installed (just not the active session) so switching up to Average/Ludicrous later is instant
 
 ### 2. Average (recommended level)
 The "suggested" tier, auto-picked based on detected Pi model/RAM. Switches the login session to Wayfire and turns on:
