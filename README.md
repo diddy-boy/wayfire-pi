@@ -1,4 +1,4 @@
-# wayfire-pi.sh
+# wayfire-pi
 
 A terminal UI tool for adding — and safely removing — Wayfire compositor eye-candy on Raspberry Pi OS (Trixie). Pick a tier from plain and stock to full glass-and-wobbly-windows, save/restore your own look-and-feel presets, or nuke it all back to standard Pi OS if something goes wrong.
 
