@@ -145,6 +145,8 @@ You can always customise any binding yourself in `wcm` (Wayfire Config Manager) 
 - **First run to Average/Ludicrous is slow** → the script is compiling `pixdecor` from source the first time, since it isn't packaged for Pi OS. Subsequent runs are fast.
 - **Script exits with "aborted (exit ...) at line ..."** → this is the script's own error trap; it means a command failed partway through rather than dying silently. Check `/tmp/wayfire-pi-*-build.log` for build-step failures, or open an issue with the reported line number.
 
+![Install count](https://hits.sh/github.com/diddy-boy/wayfire-pi/install.svg) installs and counting!
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
