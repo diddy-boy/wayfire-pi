@@ -24,6 +24,12 @@ Everything it changes can be undone: a one-time snapshot of your system is taken
 - **Run as your normal user, not root.** The script calls `sudo` itself for the specific steps that need it (package installs, session files) and will refuse to run under `sudo ./wayfire-pi.sh`.
 - **Reboots are sometimes required.** Switching login sessions doesn't take effect until your next login/reboot — the script tells you when and offers to do it for you.
 
+## Screenshots
+
+| Default Pi OS | Minimal | Average | Ludicrous |
+|---|---|---|---|
+| ![Default Pi OS](screenshots/default_pi.png) | ![Minimal mode](screenshots/minimal_mode.png) | ![Average mode](screenshots/average_mode.png) | ![Ludicrous mode](screenshots/ludicrous_mode.png) |
+
 ## Requirements
 
 - Raspberry Pi OS **Trixie**, any supported Pi model
