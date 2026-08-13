@@ -57,10 +57,11 @@ You'll get a one-time detection screen (Pi model, RAM, suggested tier), then the
 ```
 1) Apply the suggested level
 2) Apply minimal effects (Pi OS)
-3) Ludicrous mode — apply everything
-4) Help, my desktop is borked — back to standard Pi OS
-5) Backup this look and feel
-6) Apply a previously saved look and feel
+3) Apply Minimal Plus (Pi OS)
+4) Ludicrous mode — apply everything
+5) Help, my desktop is borked — back to standard Pi OS
+6) Backup this look and feel
+7) Apply a previously saved look and feel
 ```
 
 The script detects your Pi model and RAM and recommends a tier automatically, but you're always free to pick any of the three directly.
