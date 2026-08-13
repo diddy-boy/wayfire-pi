@@ -23,7 +23,7 @@ Everything it changes can be undone: a one-time snapshot of your system is taken
 - **Trixie only.** This script assumes Raspberry Pi OS Trixie's default desktop stack (`labwc`, `wf-panel-pi`, LightDM + AccountsService session handling). Running it on Bookworm or any earlier release **will damage your desktop** — the config file layout and session handling it depends on don't match.
 - **Run as your normal user, not root.** The script calls `sudo` itself for the specific steps that need it (package installs, session files) and will refuse to run under `sudo ./wayfire-pi.sh`.
 - **Reboots are required.** Switching login sessions doesn't take effect until your next login/reboot — the script tells you when and offers to do it for you.
-- **Raspberry state that wayfire is no longer supported but still currently available in the repositories. At some point Wayfire will no longer be able to be installed. hence a Minimal Plus mode is added with as many effects as Labwc supports
+- **Raspberry state that wayfire is no longer supported but still currently available in the repositories. At some point Wayfire will no longer be installable and removed. hence a Minimal Plus mode is added with as many effects as Labwc supports
 
 ## Screenshots
 
