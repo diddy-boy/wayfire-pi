@@ -79,7 +79,7 @@ Strips Wayfire out of the picture entirely — no compositor effects layer at al
 - If installed, Wayfire itself is left installed (just not the active session) so switching up to Average/Ludicrous later is instant
 
 ### 2. Minimal Plus (enhanced labwc, no Wayfire required)
-- Adwaita-dark GTK theme with candy-icons (colourful gradient icon set) — MacTahoe deliberately skipped by design, since its own theme CSS fought this script's overrides and its first-run build takes several minutes on a Pi
+- Adwaita-dark GTK theme with candy-icons (colourful gradient icon set)
 - Translucent titlebars and native labwc menus (
 - #1e1e2e navy, glassier alpha than plain Minimal)
 - Translucent wf-panel-pi
