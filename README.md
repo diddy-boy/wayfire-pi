@@ -78,7 +78,20 @@ Strips Wayfire out of the picture entirely — no compositor effects layer at al
 - No blur, no rounded corners, no glass
 - If installed, Wayfire itself is left installed (just not the active session) so switching up to Average/Ludicrous later is instant
 
-### 2. Average (recommended level)
+### 2. nimal Plus (enhanced labwc, no Wayfire required)
+- Adwaita-dark GTK theme with candy-icons (colourful gradient icon set) — MacTahoe deliberately skipped by design, since its own theme CSS fought this script's overrides and its first-run build takes several minutes on a Pi
+- Translucent titlebars and native labwc menus (
+- #1e1e2e navy, glassier alpha than plain Minimal)
+- Translucent wf-panel-pi
+- Rounded window corners (16px) with soft, tinted drop shadows
+- Circular hover highlight on titlebar buttons
+- Previewed Alt-Tab window switcher (live window previews, not just a bare list)
+- Consistent glass font (sans 10) across window titles, menus, and the on-screen display
+- Glass-styled tooltips and scrollbars, plus dark glass-styled file-manager/list views
+- Themed swaync notifications and swayosd volume/brightness OSD (best-effort — CSS class names aren't guaranteed stable across versions)
+- No Wayfire required — works on any Trixie system, including ones where Wayfire's been pulled from the repos  
+
+### 3. Average (recommended level)
 The "suggested" tier, auto-picked based on detected Pi model/RAM. Switches the login session to Wayfire and turns on:
 - MacTahoe GTK glass theme (falls back to Adwaita-dark + translucent titlebars if MacTahoe isn't available)
 - `blur` plugin (kawase, 4 degrade / 3 iterations / 2 offset — lighter weight)
@@ -86,7 +99,7 @@ The "suggested" tier, auto-picked based on detected Pi model/RAM. Switches the l
 - Window shadows if `wayfire-plugin-winshadows` is installed (radius 35, no glow)
 - Open/close animations: zoom in, fade out
 
-### 3. Ludicrous mode
+### 4. Ludicrous mode
 Everything Average has, turned up, plus the extra eye-candy plugins:
 - `wobbly`, `cube`, `fisheye`, `wrot` plugins enabled
 - Heavier blur (kawase, 2 degrade / 5 iterations / 3 offset)
