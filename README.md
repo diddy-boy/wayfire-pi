@@ -78,7 +78,7 @@ Strips Wayfire out of the picture entirely — no compositor effects layer at al
 - No blur, no rounded corners, no glass
 - If installed, Wayfire itself is left installed (just not the active session) so switching up to Average/Ludicrous later is instant
 
-### 2. nimal Plus (enhanced labwc, no Wayfire required)
+### 2. Minimal Plus (enhanced labwc, no Wayfire required)
 - Adwaita-dark GTK theme with candy-icons (colourful gradient icon set) — MacTahoe deliberately skipped by design, since its own theme CSS fought this script's overrides and its first-run build takes several minutes on a Pi
 - Translucent titlebars and native labwc menus (
 - #1e1e2e navy, glassier alpha than plain Minimal)
