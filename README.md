@@ -89,7 +89,9 @@ Strips Wayfire out of the picture entirely — no compositor effects layer at al
 - Consistent glass font (sans 10) across window titles, menus, and the on-screen display
 - Glass-styled tooltips and scrollbars, plus dark glass-styled file-manager/list views
 - Themed swaync notifications and swayosd volume/brightness OSD (best-effort — CSS class names aren't guaranteed stable across versions)
-- No Wayfire required — works on any Trixie system, including ones where Wayfire's been pulled from the repos  
+- No Wayfire required — works on any Trixie system, including ones where Wayfire's been pulled from the repos
+
+When wayfire is removed from the Pi OS repositories, then Minimal Plus mode with be the replacement look.
 
 ### 3. Average (recommended level)
 The "suggested" tier, auto-picked based on detected Pi model/RAM. Switches the login session to Wayfire and turns on:
