@@ -27,9 +27,9 @@ Everything it changes can be undone: a one-time snapshot of your system is taken
 
 ## Screenshots
 
-| Default Pi OS | Minimal | Average | Ludicrous |
-|---|---|---|---|
-| ![Default Pi OS](screenshots/default_pi.png) | ![Minimal mode](screenshots/minimal_mode.png) | ![Average mode](screenshots/average_mode.png) | ![Ludicrous mode](screenshots/ludicrous_mode.png) |
+| Default Pi OS | Minimal | Minimal Plus | Average | Ludicrous |
+|---|---|---|---|---|
+| ![Default Pi OS](screenshots/default_pi.png) | ![Minimal mode](screenshots/minimal_mode.png) | ![Minimal Plus mode](screenshots/minimal-plus.png) | ![Average mode](screenshots/average_mode.png) | ![Ludicrous mode](screenshots/ludicrous_mode.png) |
 
 ## Requirements
 
