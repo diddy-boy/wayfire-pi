@@ -46,7 +46,7 @@ Everything else — Wayfire, `wf-shell`, `wcm`, the icon theme, the `pixdecor` b
 ## Usage
 
 ```bash
-git clone https://github.com/<your-username>/wayfire-pi.git
+git clone https://github.com/diddy-boy/wayfire-pi.git
 cd wayfire-pi
 chmod +x wayfire-pi.sh
 ./wayfire-pi.sh
