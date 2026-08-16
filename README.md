@@ -82,6 +82,7 @@ Strips Wayfire out of the picture entirely — no compositor effects layer at al
 - Adwaita-dark GTK theme with candy-icons (colourful gradient icon set)
 - Translucent titlebars and native labwc menus (
 - #1e1e2e navy, glassier alpha than plain Minimal)
+- swaync (system notifications UI)
 - Translucent wf-panel-pi
 - Rounded window corners (16px) with soft, tinted drop shadows
 - Circular hover highlight on titlebar buttons
