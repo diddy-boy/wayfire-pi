@@ -13,6 +13,7 @@ Built and tested on real Pi hardware (Zero 2W through Pi 5), with a strong bias 
 ## What this actually does
 
 Pi OS Trixie ships with `labwc`, a lightweight Wayland window manager, and no compositor effects of any kind — no blur, no shadows, no transparency. `wayfire-pi.sh` is a menu-driven installer/configurator that switches your login session over to [Wayfire](https://github.com/WayfireWM/wayfire) (a Wayland compositor with a proper effects/plugin stack) and applies a curated, GPU-budget-aware set of visual effects on top of it — glass panel and titlebars, blur, shadows, animations, and at the top end wobbly windows and a rotating desktop cube.
+Minimal and Minimal Plus Modes will not use wayfire and stay using Labwc.
 
 You pick a **tier** based on how much GPU headroom your Pi has, and the script handles installing packages, building the one plugin that isn't packaged (`pixdecor`, for shadows/decorations), writing all the config files in the right places, and switching your login session — all from a `dialog`/`whiptail` text UI, no desktop session required to run it.
 
